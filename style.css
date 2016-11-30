@@ -2,6 +2,15 @@ body {
   background-image: linear-gradient(to bottom right, #8300ff, #ac5bf7);
 }
 
+p {
+  font-size: 1.4em;
+  font-family: 'Istok Web';
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Josefin Sans';
+}
+
 .titre {
   text-align: center;
   font-family: 'Permanent Marker';
@@ -43,36 +52,7 @@ body {
   font-size: 1.5em;
 }
 
-.featuresItem {
-  background-color: #eaeaea;
-}
 
-.featuresTitle {
-  text-align: center;
-}
-
-hr {
-  color: #8300ff;
-  background-color: #eaeaea;
-  margin-bottom: 40px;
-  padding-top: 40px;
-}
-
-.content {
-  background-color: #eaeaea;
-}
-
-.footer {
-    background-image: linear-gradient(to bottom right, #8300ff, #ac5bf7);
-}
-
-.callToActionEnd {
-  margin-bottom: 40px;
-}
-
-#btnSubmit {
-  background-color: #8300ff;
-}
 
 #nom, #prenom {
   display: inline-block;
