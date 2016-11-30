@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    <title>Start Us Up</title>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.css">
     <script src="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.js"></script>
     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css?family=Istok+Web|Josefin+Sans" rel="stylesheet">
   </head>
 
   <body>
@@ -59,11 +60,11 @@
 </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
-<div class="mc-field-group">
+<div class="mc-field-group" id="prenom">
 	<label for="mce-FNAME">Prénom </label>
 	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 </div>
-<div class="mc-field-group">
+<div class="mc-field-group" id="nom">
 	<label for="mce-LNAME">Nom</label>
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
@@ -72,7 +73,7 @@
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_846b10d58c6d05e07237d04ec_f89dea4a4a" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear" id=btnSubmit""><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
@@ -80,81 +81,6 @@
 <!--End mc_embed_signup-->
       </div>
     </div>
-
-<div class="content">
-  <hr>
-
-
-  <div class="featuresItem">
-    <div class="row">
-      <div class="large-4 column">
-        <h4 class="featuresTitle">La marketplace des projets entrepreneuriaux</h4>
-      </div>
-      <div class="large-4 column">
-        <h4 class="featuresTitle">L'humain avant les compétences</h4>
-      </div>
-      <div class="large-4 column">
-        <h4 class="featuresTitle">Des projets proches de vous</h4>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="large-4 column">
-        <p>Start Us Up est une marketplace qui regroupe d'un côté des porteurs de projets et de l'autre, des personnes souhaitant s'impliquer dans un projet. Grâce à un système de swipe, les porteurs de projets peuvent tenter d'entrer en contact avec des associés potentiels et inversement. Si un porteur de projet et un associé potentiel souhaite réciproquement se rencontrer, ca MATCH et une discussion se crée alors automatiquement entre eux.</p>
-      </div>
-      <div class="large-4 column">
-        <p>Contrairement, à la plupart des applications de recontres professionnelles, Start Us Up ne se base pas sur les compétences des utilisateurs mais sur leurs affinités. L'affichage des compétences des utilisateurs est réduite au maximum, laissant ainsi plus de place à leur personnalité et leurs centres d'intérêts. Start Us Up est un système centré sur l'humain, car ce qui fait une équipe, c'est avant tout la bonne entente de ses membres.</p>
-      </div>
-      <div class="large-4 column">
-        <p>Il est difficile d'apprendre à connaître et apprécier une personne à distance. Basée sur les affinités entre ses utilisateurs, Start Us Up fait le choix de ne vous présenter que des projets et des personnes prochent de vous gratuitement, pour que les échanges entre eux ne se limitent pas à la messagerie de l'application, mais qu'ils se fassent dans la vie réelle. Encore une fois, l'expérience de Start Us Up privilégie avant tout l'humain</p>
-      </div>
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="projectItem">
-    <div class="row">
-      <div class="large-12">
-        <h4>Le projet</h4>
-        <p>Créé à l'occasion de l'Orange Innovation Academy de 2016, Start Us Up n'en est pas moins un véritable projet entrepreneurial. Fondé par 5 étudiants (2 de l'EM Normandie et 3 de l'ENSICAEN), Start Us Up est également un challenge : réussir à créer une start-up viable, en moins de 4 mois et avec des moyens proches de zéro.  </p>
-      </div>
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="callToActionEnd">
-    <div class="row">
-      <div class="large-12">
-        <h3>S'inscrire à la newsletter</h3>
-        <p>Inscrivez-vous à la newsletter pour être informé des avancées de l'application et participez à nos campagnes de prise de feedback</p>
-        <form>
-          <div class="row">
-            <div class="large-6 columns">
-                <input type="text" placeholder="Nom">
-            </div>
-            <div class="large-6 columns">
-                <input type="text" placeholder="Prénom">
-            </div>
-          </div>
-          <div class="input-group">
-            <input class="input-group-field" type="email" placeholder="E-Mail">
-            <a class="input-group-button button">S'inscrire</a>
-          </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer">
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  </div>
-
-</div>
-
   </body>
 </html>
+
