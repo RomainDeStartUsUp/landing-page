@@ -1,0 +1,79 @@
+body {
+  background-image: linear-gradient(to bottom right, #8300ff, #ac5bf7);
+}
+
+.titre {
+  text-align: center;
+  font-family: 'Permanent Marker';
+  color: #fcfbf7;
+}
+
+.emailForm {
+  background-color: #FFF;
+  padding: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 15px;
+  float : left;
+  color: #8300ff;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+#intro {
+  border-right: 5px;
+  color: #fcfbf7;
+}
+
+#quoteBlock {
+  padding-top: 9px;
+  border: 3px;
+  color: #fcfbf7;
+}
+
+#quote {
+  font-size: 2em;
+  font-style: italic;
+}
+
+#nameQuote {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.featuresItem {
+  background-color: #eaeaea;
+}
+
+.featuresTitle {
+  text-align: center;
+}
+
+hr {
+  color: #8300ff;
+  background-color: #eaeaea;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+
+.content {
+  background-color: #eaeaea;
+}
+
+.footer {
+    background-image: linear-gradient(to bottom right, #8300ff, #ac5bf7);
+}
+
+.callToActionEnd {
+  margin-bottom: 40px;
+}
+
+#btnSubmit {
+  background-color: #8300ff;
+}
+
+#nom, #prenom {
+  display: inline-block;
+}
